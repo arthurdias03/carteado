@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{background-image: url("mesa.jpg");}
+
+section{width: 400px;height:400px;position: absolute;top:50%;left:50%;margin-left: -200px;margin-top: -200px;background-image: url("logotipo.png");}
+
+nav{width: 169px;height:253px;background-image: url("baralho-fundo.png");top:0;left:25%;position: fixed;margin:0;transition-property:background-image,z-index,transform;
+transition-duration: 0.2s;}
+
+nav:hover{background-image: url("cartas_0000_Layer1.jpg");z-index:2;transform:translateY(100px)  rotateY(360deg);}
+
+nav01{width: 169px;height:253px;background-image: url("baralho-fundo.png");top:0;left:30%;position: fixed;margin:0;transition-property:background-image,z-index,transform;
+transition-duration: 0.2s;}
+
+nav01:hover{background-image: url("cartas_0001_Layer2.jpg");z-index:2;transform:translateY(100px)  rotateY(360deg);}
+
+
+
+
+nav1{width: 169px;height:253px;background-image: url("baralho-fundo.png");top:0=;right:25%;position: fixed;margin:0;transition-property:background-image,z-index,transform;
+transition-duration: 0.2s;}
+
+nav1:hover{background-image: url("cartas_0002_Layer3.jpg");z-index:2;transform:translateY(100px)  rotateY(360deg);}
+
+
+nav2{width: 169px;height:253px;background-image: url("baralho-fundo.png");top:0;right:30%;position: fixed;margin:0;transition-property:background-image,z-index,transform;
+transition-duration: 0.2s;}
+
+nav2:hover{background-image: url("cartas_0003_Layer4.jpg");z-index:2;transform:translateY(100px)  rotateY(360deg);}
+
+
+footer{width: 150px;height:151px;background-image:url("fichas_0000_Layer-1.png");bottom:120px;left:25%;position: fixed;margin:0;transition-property: transform,z-index;
+transition-duration:2s;
+transition-timing-function: ease-out;}
+
+footer:hover{transform: rotateX(1440deg) rotateY(360deg) scale(1.5);z-index: 2;}
+
+footer01{width: 150px;height:151px;background-image:url("fichas_0001_Layer-2.png");bottom:120px;left:30%;position: fixed;margin:0;transition-property: transform,z-index;
+transition-duration:2s;
+transition-timing-function: ease-out;}
+
+footer01:hover{transform: rotateX(1440deg) rotateY(360deg) scale(1.5);z-index: 2;}
+
+footer1{width: 150px;height:151px;background-image:url("fichas_0000_Layer-1.png");bottom:120px;right:25%;position: fixed;margin:0;transition-property: transform,z-index;
+transition-duration:2s;
+transition-timing-function: ease-out;}
+
+footer1:hover{transform: rotateX(1440deg) rotateY(360deg) scale(1.5);z-index:2;}
+
+footer02{width: 150px;height:151px;background-image:url("fichas_0001_Layer-2.png");bottom:120px;right:30%;position: fixed;margin:0;transition-property: transform,z-index;
+transition-duration:2s;
+transition-timing-function: ease-out;}
+
+footer02:hover{transform: rotateX(1440deg) rotateY(360deg) scale(1.5);z-index: 2}
+
+
+
+
